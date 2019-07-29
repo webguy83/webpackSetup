@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
-
+import { Link, Route } from 'react-router-dom';
 import Users from './containers/Users';
-import Food from './containers/Food';
+
 import asyncComponent from './hoc/asyncComponent';
 
 const asyncFood = asyncComponent(() => {
